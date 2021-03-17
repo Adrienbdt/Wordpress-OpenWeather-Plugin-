@@ -44,7 +44,7 @@ class Open_Weather_Widget extends WP_Widget {
 
 		// print_r($cities);	
 		isset($_GET["city"]) ? $targetCity = $_GET["city"] : $targetCity = 'Vancouver'; 
-		$api_key = '6458f36d15566f75186649f197664457';
+		$api_key = '########';
 		$api_url = 'http://api.openweathermap.org/data/2.5/forecast?q='.$targetCity.'&units=metric&appid='.$api_key;
 		
 		// LOOP THROUGH PAYLOAD
